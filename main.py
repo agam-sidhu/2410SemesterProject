@@ -3,8 +3,8 @@ import seaborn as sns
 import matplotlib.plyplot as plt
 
 faithful = pd.read_csv('oldfaithful.csv')
-
-
-sns.scatterplot(data = faithful, x = 'time between eruptions', y = 'length of eruptions')
+time_between_eruptions=faithful['Eruption']
+length_of_eruptions=faithful['Waiting']
+sns.scatterplot(data = faithful, x = time_between_eruptions, y = length_of_eruptions)
 #this is my test commit
 #test commit
