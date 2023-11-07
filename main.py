@@ -1,6 +1,6 @@
 import pandas as pd
-import seaborn as sns 
 import matplotlib.plyplot as plt
+import seaborn as sns 
 
 faithful = pd.read_csv('oldfaithful.csv')
 time_between_eruptions=faithful['Eruption']
