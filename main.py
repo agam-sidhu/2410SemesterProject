@@ -1,5 +1,5 @@
 import pandas as pd
-import matplotlib.plyplot as plt
+import matplotlib.pyplot as plt
 import seaborn as sns 
 
 faithful = pd.read_csv('oldfaithful.csv')
